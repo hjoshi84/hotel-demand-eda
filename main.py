@@ -4,8 +4,8 @@ import helper
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-# df = pd.read_csv('C:\\Users\\hajosh\\Documents\\ds_projects\\hotel_bookings_cleaned1.csv')
-df = pd.read_csv('.\hotel_bookings_cleaned1.csv')
+
+df = pd.read_csv('hotel_bookings_cleaned1.csv')
 
 st.set_page_config("Hotel Demand Analysis",layout='wide',)
 st.sidebar.title("Hotel Demand Analysis")
